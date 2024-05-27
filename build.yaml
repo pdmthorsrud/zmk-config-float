@@ -17,8 +17,11 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-include:
-  - board: nice_nano_v2
-    shield: float_left
-  - board: nice_nano_v2
-    shield: float_right
+
+board: [ "nice_nano_v2" ]
+shield: [ "float_left", "float_right" ]
+# include:
+#   - board: nice_nano_v2
+#     shield: float_left
+#   - board: nice_nano_v2
+#     shield: float_right
