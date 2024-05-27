@@ -1,5 +1,5 @@
 config SHIELD_FLOAT_LEFT
-    def_bool $(shields_list_contains, float_left)
+    def_bool $(shields_list_contains,float_left)
 
 config SHIELD_FLOAT_RIGHT
-    def_bool $(shields_list_contains, float_right)
+    def_bool $(shields_list_contains,float_right)
